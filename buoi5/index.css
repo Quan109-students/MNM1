@@ -1,0 +1,69 @@
+/* Định dạng chung */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2c3e50 !important;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f39c12 !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Nút tìm kiếm & Đăng ký */
+.form-control {
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+}
+
+.btn-outline-success {
+    border-color: #f39c12;
+    color: #f39c12;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin-left: 10px;
+}
+
+.btn-outline-success:hover {
+    background-color: #f39c12;
+    color: white;
+}
+.btn-signup {
+    border-color: #f39c12;
+    color: #f39c12;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin-left: 10px;
+    
+}
+
+.btn-signup:hover {
+    background-color: #f39c12;
+    color: white;
+}
